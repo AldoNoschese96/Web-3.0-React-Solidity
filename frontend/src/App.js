@@ -75,8 +75,8 @@ function App() {
       setWavesArray((prevState) => [
         ...prevState,
         {
-          address: from,
-          timestamp: new Date(timestamp * 1000),
+          waver: from,
+          timestamp,
           text,
           author,
         },
