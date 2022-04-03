@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 
 const useCheckWallet = () => {
   const { ethereum } = window;
-  const contractAddress = "0x8FD7F15104F2c320Dbbb57eABCE69dAfa34e67b1";
+  const contractAddress = "0xE7828B6d6CA9F326175A20D5f9E42fA87402f5E2";
   const [account, setCurrentAccount] = React.useState(null);
   const [contract, setContract] = React.useState(null);
   const [loading, setLoading] = React.useState(false);

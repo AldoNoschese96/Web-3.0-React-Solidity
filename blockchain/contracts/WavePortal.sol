@@ -32,7 +32,7 @@ contract WavePortal {
 
     function addWaveHandler(string memory _text, string memory _author) public {
         require(
-            lastWavedAt[msg.sender] + 30 seconds < block.timestamp,
+            lastWavedAt[msg.sender] + 15 minutes < block.timestamp,
             "Wait 15m"
         );
 

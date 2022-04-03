@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/aldo/wa/wave-portal/blockchain/contracts/WavePortal.sol": {
-      "lastModificationDate": 1649012014049,
-      "contentHash": "7bebc22b225c081b99e944929b0bc9df",
+      "lastModificationDate": 1649018527538,
+      "contentHash": "4f91d1ecd58de7de33ac9264148e049c",
       "sourceName": "contracts/WavePortal.sol",
       "solcConfig": {
         "version": "0.8.0",
